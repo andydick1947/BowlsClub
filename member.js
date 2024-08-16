@@ -78,11 +78,7 @@ btn3.addEventListener("click",function(e){
 myCalc(btn3.innerText);
 togglePopup();
 });
-const btn4=document.getElementById("btn4");
-btn4.addEventListener("click",function(e){   
-myCalc(btn4.innerText);
-togglePopup();
-});
+
 const btn5=document.getElementById("btn5");
 btn5.addEventListener("click",function(e){   
 myCalc(btn5.innerText);

@@ -63,7 +63,16 @@ function togglePopup(){
 
 }
 
-const btn1=document.getElementById("btn1");
+for (let x=1; x<=(membership.length); x++){ 
+
+    let z="btn".concat(x);
+    const y=document.getElementById(z);
+    y.addEventListener("click",function(e){   
+        myCalc(y.innerText);
+        togglePopup();
+        })};
+        
+/*const btn1=document.getElementById("btn1");
 btn1.addEventListener("click",function(e){   
 myCalc(btn1.innerText);
 togglePopup();
@@ -259,4 +268,4 @@ const btn40=document.getElementById("btn40");
 btn40.addEventListener("click",function(e){   
 myCalc(btn40.innerText);
 togglePopup();
-});
+});*/

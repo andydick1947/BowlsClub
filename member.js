@@ -31,11 +31,11 @@ let membership=[
 ["67", "Trish", "Roe", "patricia.roe@gmail.com", "01446771867"],
 ["92", "Debbie", "Rosevear", "drosevear2002@hotmail.co.uk ", "01446774190"],
 ["83", "Winifred", "Silman", "winifred.silman52@icloud.com", "01446793534"],
-["75", "Pam", "Treadwell", "treadwellpam.08@gmail.com ", "07973720211"],
-["79", "Dot", "Williams", "dotandesgadlys@talktalk.net", "07912640212"],
-
-["81", "Jennifer", "Young", "jennyandnev@yahoo.co", "07528277077"],
 ["95", "Anne", "Sparks", "annesparks1942@btinternet.com", "01446795443"],
+["75", "Pam", "Treadwell", "treadwellpam.08@gmail.com ", "07973720211"],
+
+["79", "Dot", "Williams", "dotandesgadlys@talktalk.net", "07912640212"],
+["81", "Jennifer", "Young", "jennyandnev@yahoo.co", "07528277077"]
 
 ]
 function myCalc(lbl){

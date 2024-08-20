@@ -6,7 +6,7 @@ let membership=[
 ["87", "Fiona", "Blick", "vivianblick@btinternet.com", " "],
 ["88", "Vivian", "Blick", "vivianblick@btinternet.com", " "],
 ["8", "Jane", "Brown", "janebrown10@btinternet.com", " "],
-["10", "Lynfa", "Chamberlain", "lynfachamberlain@gmail.com", "01446772148"],
+["10", "Lynfa", "Chamberlain", "lynvachamberlain@gmail.com", "01446772148"],
 ["13", "Gill", "Daniels", "gilldaniels@rocketmail.com", "07748195731"],
 ["17", "Andy", "Dick", "ardick2000@gmail.com ", "07548748264"],
 ["71", "Helen", "Ford", "helenford008@yahoo.co.uk", "07443579909"],

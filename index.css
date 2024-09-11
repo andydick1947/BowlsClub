@@ -9,6 +9,7 @@ body{
   width:100%;
   position:fixed;
   top:0;
+  left:0;
   
 }
 .indexbar a{
@@ -31,165 +32,210 @@ body{
 .container{
   display:grid;
   height:100vh;
-  grid-template-columns: 1fr 2fr 2fr 1fr;
-  grid-template-rows: .2fr 1fr 1fr 1fr 1fr .2fr;
+  grid-template-columns: 1fr 1fr .8fr 1.2fr;
+  grid-template-rows: .8fr 1fr 1fr 1fr .2fr;
   grid-gap: .5em;
+ 
+
 grid-template-areas: 
 "main main main main" 
-"content1 content2 content2 content3"
-"content4 content5 content5 content6"
-"content7 content7 content8 content8"
+"content1 content1 content1 content1"
+"content2 content2 content7 content3" 
+"content4 content4 content5 content5"
 "footer footer footer footer"
 }
-main{
+.main{
 grid-area: main;
 background-color: skyblue;
-color: black;
+color: navy;
 font-size: 40px;
 font-weight:bold;
 text-align:center;
 margin: auto;
-}
 
+}
 
 #content1{
 grid-area:content1;
-background-color: skyblue;
+background-color: white;
+border-radius: 10px;
+font-size: 28px;
+font-family:'Segoe UI';
+color:blue;
+padding:1%;
 }
 #content2{
   grid-area:content2;
-  background-color: skyblue;
-  padding: 1%;
-  color:blue;
-  font-size: 25px;
+  background-color: white;
+  border-radius: 10px;
+  font-size: 20px;
   font-family:'Segoe UI';
+  color:blue;
+  padding:1%;
 }
 #content3{
-  background-color:skyblue;
   grid-area:content3;
+  background-color: white;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family:'Segoe UI';
+  color:blue;
+  padding:1%;
 }
 #content4{
-  background-color: skyblue;
   grid-area:content4;
+  background-color: white;
+  border-radius: 10px;
+  font-size: 28px;
+  font-family:'Segoe UI';
+  color:blue;
+  padding:1%;
 }
 #content5{
-  background-color: skyblue;
   grid-area:content5;
-  padding: 1%;
-  color:blue;
-  font-size: 25px;
+  background-color: white;
+  border-radius: 10px;
+  font-size: 28px;
   font-family:'Segoe UI';
-  }
-  #content6{
-    background-color: skyblue;
-    grid-area:content6;
-  }
-  #content7{
-    background-color: skyblue;
-    grid-area:content7;
-    margin: auto;
-  }
-  #content8{
-    background-color:skyblue;
-    grid-area:content8;
-    padding: 5%;
-    color:blue;
-    font-size: 25px;
-    font-family:'Segoe UI';
-  }
-  .img1{
-    height:210px;
-  }
-  .img2{
-    height: 210px;
-  }
-
-  footer{
+  color:blue;
+  padding:1%;
+}
+#content7{
+  grid-area:content7;
+  background-color: white;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family:'Segoe UI';
+  color:blue;
+  padding:1%;
+}
+footer{
     grid-area:footer;
     background-color: white;
     }
+.img13{
+  height: 96%;
+  width: 98%;
+}
 
-@media only screen and (min-width: 1200px){
+@media only screen and (min-width: 1200px) and (max-width: 1550px){
   body {
     background-color: skyblue;
   }
+  .container{
+    display:grid;
+    height:100vh;
+    grid-template-columns: .6fr 1fr 1.2fr 1.2fr;
+    grid-template-rows: .8fr 1fr 1fr 1fr .2fr;
+    grid-gap: .5em;
+   
+  
+  grid-template-areas: 
+  "main main main  
+  "content1 content1 content1 content1"
+  "content2 content2 content7 content3" 
+  "content4 content4 content5 content5"
+  "footer footer footer footer"
+  }
+  #content1{
+    font-size: 28px;
+  }
   #content2{
-    font-size: 30px;
+    font-size: 28px;
   }
   #content5{
-    font-size: 30px;
+    font-size: 28px;
   }
-#content8{
-  font-size: 30px;
-}
-.img1{
+  #content7{
+    font-size: 28px;
+  }
+  .img1{
   margin-left:30px;
 }
 footer{
-    background-color: red;
+    background-color: white;
   }
 }
 
-
-@media only screen and (max-width: 1200px) and (min-width: 820px){
+@media only screen and (min-width: 600px) and (max-width: 1200px){
   body {
     background-color: skyblue;
   }
+    .container{
+    display:grid;
+    height:100vh;
+    grid-template-columns: .6fr 1fr 1.2fr 1.2fr;
+    grid-template-rows: .8fr 1fr 1fr 1fr .2fr;
+    grid-gap: .5em;
+   
+  
+  grid-template-areas: 
+  "main main main main" 
+  "content1 content1 content1 content1"
+  "content2 content2 content7 content3" 
+  "content4 content4 content5 content5"
+  "footer footer footer footer"
+  }
+  #content1{
+    font-size: 25px;
+  }
   #content2{
-    font-size: 28px;
+    font-size: 25px;
   }
+  #content4{
+    font-size: 25px;
+  } 
   #content5{
-    font-size: 28px;
+    font-size: 25px;
   }
-#content8{
-  font-size: 28px;
-}
+  #content7{
+    font-size: 25px;
+  }
+
   footer{
     background-color: blue;
   }
 }
 
-@media only screen and (max-width: 820px){
-  body {  
+@media only screen and (min-width: 100px) and (max-width: 600px){
+body {  
 background-color: skyblue;
   }
 
 .container {
-   grid-template-columns: 1fr 1fr;
-  grid-template-rows: .2fr 1fr 1fr 1fr 1fr 1fr 1fr 0.2fr;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr ifr 0.2fr;
   grid-template-areas:
   "main main"
-
-  "content1 content3"
+  "content1 content1" 
   "content2 content2"
-  "content4 content6"
-  "content5 content5"
   "content7 content7"
-  "content8 content8"
+  "content3 content3"
+  "content4 content4"
+  "content5 content5"
   "footer footer";
   grid-gap: .1em;
 }
-main{
+
+.main{
   text-align:center;
-  font-size: 30px;
+  font-size: 28px;
   font-weight:bold;
 }
-#content1{
-  margin-left: 20%;
-}
-#content3{
-  margin-left: 10%;
+#content2{
+  font-size: 25px;
 }
 #content4{
-  margin-left: 20%;
+  font-size: 25px;
 }
-#content6{
-  margin-left: 10%;
+#content5{
+  font-size: 25px;
 }
 #content7{
-  padding-right: 5%;
+  font-size: 25px;
 }
+
 footer{
-  background-color: yellow;
+  background-color: red;
 }
 }

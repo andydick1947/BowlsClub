@@ -157,7 +157,7 @@ footer{
   }
 }
 
-@media only screen and (min-width: 600px) and (max-width: 1200px){
+@media only screen and (min-width: 850px) and (max-width: 1200px){
   body {
     background-color: skyblue;
   }
@@ -197,7 +197,7 @@ footer{
   }
 }
 
-@media only screen and (min-width: 100px) and (max-width: 600px){
+@media only screen and (min-width: 100px) and (max-width: 850px){
 body {  
 background-color: skyblue;
   }

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bowls Club Bridge</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="res-byMnth.css">
+ 
+</head>
+<body>
+  <div class="resbyMnth">
+    <a href="index.html">Home</a>
+    <a href="res-mnths.html">Results</a>
+
+  </div>
+  <br><br><br>
+  <div class= "my-grid">
+  <button type="button" id="butn40" class="butn">3 JAN 25</button>
+  <button type="button" id="butn41" class="butn">10 JAN 25</button>
+  <button type="button" id="butn42" class="butn">17 JAN 25</button>
+  <button type="button" id="butn43" class="butn">24 JAN 25</button>
+  <button type="button" id="butn44" class="butn">31 JAN 25</button>
+  </div>
+ <div class="target1"></div>
+
+<script src="res-bar.js"></script>
+<script>
+for (let x=40; x<=44; x++){ 
+  ii=x-1;
+if (myResults[ii][2]=="1"){
+bt="butn".concat(x);
+document.getElementById(bt).style.backgroundColor="skyblue";
+document.getElementById(bt).style.borderColor="blue";
+}
+let z="butn".concat(x);
+let y=document.getElementById(z);
+
+y.addEventListener("click",function(e){  
+
+fileCalc(y.innerText);
+ldfle();
+})
+}
+function fileCalc(lbl){
+for (let i=39; i<=43; i++){  
+
+  if (lbl==myResults[i][0]){
+myRes=myResults[i];}
+sk=myRes[0,1]; 
+}
+
+if(myRes[0,2]=="1"){
+  sk="Ranks.html";
+}
+
+return sk; 
+}
+
+function ldfle(){
+const target1El=document.querySelector(".target1");
+fetch(sk)
+
+    .then(res => {
+        if (res.ok) {
+        return res.text();
+        }
+})
+.then(selectFile =>{
+target1El.innerHTML=selectFile;
+});
+}
+
+
+</script>
+
+</body>
+</html>

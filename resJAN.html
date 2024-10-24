@@ -25,7 +25,7 @@
 
 <script src="res-bar.js"></script>
 <script>
-for (let x=40; x<=44; x++){ 
+   for (let x=runtot[9]; x<=runtot[10]-1; x++){ 
   ii=x-1;
 if (myResults[ii][2]=="1"){
 bt="butn".concat(x);
@@ -42,7 +42,7 @@ ldfle();
 })
 }
 function fileCalc(lbl){
-for (let i=39; i<=43; i++){  
+  for (let i=runtot[9]-1; i<=runtot[10]-2; i++){ 
 
   if (lbl==myResults[i][0]){
 myRes=myResults[i];}

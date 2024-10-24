@@ -26,7 +26,7 @@
 
   <script src="res-bar.js"></script>
   <script>
-    for (let x=14; x<=17; x++){ 
+   for (let x=runtot[3]; x<=runtot[4]-1; x++){ 
       ii=x-1;
 if (myResults[ii][2]=="1"){
 bt="butn".concat(x);
@@ -45,7 +45,7 @@ document.getElementById(bt).style.borderColor="blue";
    };
      
    function fileCalc(lbl){
-   for (let i=13; i<=16; i++){  
+    for (let i=runtot[3]-1; i<=runtot[4]-2; i++){ 
    
    if (lbl==myResults[i][0]){
    myRes=myResults[i];}

@@ -44,29 +44,61 @@ h1{
 .butn:hover{
   background-color:black;
 }
-.my-grid{
-  background-color:skyblue;
-  width:95%;
-  margin-left:auto;
+.my-grid1{
+  display: flex;
+  align-self: auto;
+  justify-content:center;
+  align-items: center;
+  width: 90%;
+  margin-left:4%;
+  margin-right:6%;
+  margin-top:2%;
+  background-color: skyblue;
+  flex-wrap: wrap;
 
 }
-@media only screen and (min-width: 100px) and (max-width: 700px){
-  .butn{
-     width: 22%;
-     font-size:12px;
-    }
+#container6{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  width:90%;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color:skyblue;
+  }
+#vid1{
+  width:60%;
 }
 
 @media only screen and (min-width: 600px) and (max-width: 1000px){
     .butn{
-     width: 25%;
+     width: 15%;
     }
-    @media only screen and (min-width: 50px) and (max-width: 590px){
-      .butn{
-        width: 30%;
-        font-size: 12px;
-       }
+    .my-grid1{
+      margin-top:2%;
+     }
+     #vid1{
+      width:70%;
+    }
+    #container6{
 
+      width:60%;
+      margin-left: 10%;
+      margin-right: 10%;
+ 
+      }
+    }
+    @media only screen and (min-width: 50px) and (max-width: 599px){
+      .butn{
+        width: 25%;
+        font-size: 20px;
+       }
+       .my-grid1{
+        margin-top:4%;
+       }
+       #vid1{
+        width:100%;
+      }
       .resbar a{
         float: left;
         color: #f2f2f2;
@@ -76,4 +108,13 @@ h1{
         font-size: 10px;
       }
       }
-}
+      #container6{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        width:100%;
+        margin-left: 0%;
+        margin-right: 0%;
+        background-color:skyblue;
+        }
+

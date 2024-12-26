@@ -66,9 +66,7 @@ h1{
   margin-right: 10%;
   background-color:skyblue;
   }
-#vid1{
-  width:60%;
-}
+
 
 @media only screen and (min-width: 600px) and (max-width: 1000px){
     .butn{
@@ -77,9 +75,7 @@ h1{
     .my-grid1{
       margin-top:2%;
      }
-     #vid1{
-      width:70%;
-    }
+
     #container6{
 
       width:60%;
@@ -96,9 +92,7 @@ h1{
        .my-grid1{
         margin-top:4%;
        }
-       #vid1{
-        width:100%;
-      }
+
       .resbar a{
         float: left;
         color: #f2f2f2;

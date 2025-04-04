@@ -45,6 +45,20 @@ h1{
 .butn:hover{
   background-color:black;
 }
+.btn{
+  background-color:blue;
+  color:white;
+  border-radius: 15px;
+  width:15%;
+  height: 50px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top:2px;
+  margin-right:4px;
+}
+.btn:hover{
+  background-color:black;
+}
 .my-grid{
   display: flex;
   align-self: auto;
@@ -59,9 +73,10 @@ h1{
 
 }
 @media only screen and (min-width: 100px) and (max-width: 700px){
-  .butn{
-     width: 21%;
-     font-size:10px;
+  .btn{
+     width: 33%;
+     font-size: 12px;
+  
 
 
     }
@@ -70,5 +85,6 @@ h1{
 @media only screen and (min-width: 700px) and (max-width: 1000px){
     .btn{
      width: 33%;
+     
     }
 }

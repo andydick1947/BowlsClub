@@ -8,20 +8,15 @@
  
 </head>
 <body>
-  <div class="resbyMnth">
-    <a class="active" href="index.html">Home</a>
-  
-    <a href="res-mnths.html">Results</a>
 
-  </div>
   <br><br><br>
   <div class= "my-grid">
  
     
-    <button type="button" id="butn49" class="butn">7 MAR 25</button>
-    <button type="button" id="butn50" class="butn">14 MAR 25</button>
-    <button type="button" id="butn51" class="butn">21 MAR 25</button>
-    <button type="button" id="butn52" class="butn">28 MAR 25</button>
+    <button type="button" id="butn49" class="btn">6 MAR 26</button>
+    <button type="button" id="butn50" class="btn">13 MAR 26</button>
+    <button type="button" id="butn51" class="btn">20 MAR 26</button>
+    <button type="button" id="butn52" class="btn">27 MAR 26</button>
 
   </div>
   <div class="target4"></div>
@@ -32,8 +27,9 @@
         ii=x-1;
 if (myResults[ii][2]=="1"){
 bt="butn".concat(x);
-document.getElementById(bt).style.backgroundColor="skyblue";
-document.getElementById(bt).style.borderColor="blue";
+document.getElementById(bt).style.backgroundColor="lightgray";
+
+document.getElementById(bt).style.color="darkgray";
 } 
      let z="butn".concat(x);
      let y=document.getElementById(z);

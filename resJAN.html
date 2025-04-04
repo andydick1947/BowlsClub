@@ -8,18 +8,14 @@
  
 </head>
 <body>
-  <div class="resbyMnth">
-    <a href="index.html">Home</a>
-    <a href="res-mnths.html">Results</a>
 
-  </div>
   <br><br><br>
   <div class= "my-grid">
-  <button type="button" id="butn40" class="butn">3 JAN 25</button>
-  <button type="button" id="butn41" class="butn">10 JAN 25</button>
-  <button type="button" id="butn42" class="butn">17 JAN 25</button>
-  <button type="button" id="butn43" class="butn">24 JAN 25</button>
-  <button type="button" id="butn44" class="butn">31 JAN 25</button>
+  <button type="button" id="butn40" class="btn">2 JAN 26</button>
+  <button type="button" id="butn41" class="btn">9 JAN 26</button>
+  <button type="button" id="butn42" class="btn">16 JAN 26</button>
+  <button type="button" id="butn43" class="btn">23 JAN 26</button>
+  <button type="button" id="butn44" class="btn">30 JAN 26</button>
   </div>
  <div class="target1"></div>
 
@@ -29,8 +25,9 @@
   ii=x-1;
 if (myResults[ii][2]=="1"){
 bt="butn".concat(x);
-document.getElementById(bt).style.backgroundColor="skyblue";
-document.getElementById(bt).style.borderColor="blue";
+document.getElementById(bt).style.backgroundColor="lightgray";
+
+document.getElementById(bt).style.color="darkgray";
 }
 let z="butn".concat(x);
 let y=document.getElementById(z);

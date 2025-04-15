@@ -72,19 +72,21 @@ h1{
   flex-wrap: wrap;
 
 }
-@media only screen and (min-width: 100px) and (max-width: 700px){
+
+
+@media only screen and (min-width: 300px) and (max-width: 1000px){
   .btn{
-     width: 33%;
+   width: 33%;
+   
+  }
+}
+
+@media only screen and (min-width: 20px) and (max-width: 300px){
+  .btn{
+     width: 80%;
      font-size: 12px;
   
 
 
-    }
-}
-
-@media only screen and (min-width: 700px) and (max-width: 1000px){
-    .btn{
-     width: 33%;
-     
     }
 }

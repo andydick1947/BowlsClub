@@ -63,7 +63,7 @@ function tgle(){
    };
 
    function myintro1(){
-      const int1='<p style="color: black;font-weight:bold;font-size:30px;">INTRODUCTION</p>';
+      const int1='<p style="color: black;font-weight:bold;font-size:20px;">INTRODUCTION</p>';
       const div1=document.createElement("div");
       const mydiv1=document.getElementById("mainsect");
       mydiv1.appendChild(div1);
@@ -79,7 +79,7 @@ function myintro(){
 }
 
 function myloc1(){
-   const loc1='<p style="color: black;font-weight:bold;font-size:30px;">LOCATION<br></p>';
+   const loc1='<p style="color: black;font-weight:bold;font-size:20px;">LOCATION<br></p>';
    const div1=document.createElement("div");
    const mydiv1=document.getElementById("mainsect");
    mydiv1.appendChild(div1);
@@ -99,7 +99,7 @@ function myloc(){
    div1.innerHTML=loc1;
 }
 function mycttee1(){
-const cte1='<p  style="color: black;font-weight:bold;font-size:30px;">CLUB COORDINATORS</p>'
+const cte1='<p  style="color: black;font-weight:bold;font-size:20px;">CLUB COORDINATORS</p>'
 const div1=document.createElement("div");
 const mydiv1=document.getElementById("mainsect");
 mydiv1.appendChild(div1);

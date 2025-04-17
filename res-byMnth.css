@@ -74,17 +74,23 @@ h1{
 }
 
 
-@media only screen and (min-width: 300px) and (max-width: 1000px){
+@media only screen and (min-width: 360px) and (max-width: 1000px){
   .btn{
-   width: 33%;
-   
+   width: 33%;   
   }
 }
 
-@media only screen and (min-width: 20px) and (max-width: 300px){
+@media only screen and (min-width: 260px) and (max-width: 360px){
+  .btn{
+     width: 50%;
+     font-size: 15px;
+    }
+}
+
+@media only screen and (min-width: 20px) and (max-width: 260px){
   .btn{
      width: 80%;
-     font-size: 12px;
+     font-size: 15px;
   
 
 

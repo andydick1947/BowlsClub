@@ -276,7 +276,7 @@ nav {
     #small{
       color: white;
       margin: auto;
-      margin-right:0%;
+      margin-right:10%;
       font-size: 20px;
   }
 }
@@ -284,8 +284,8 @@ nav {
   #small{
     color: white;
     margin: auto;
-    margin-right:0%;
-    font-size: 12px;
+    margin-right:10%;
+    font-size: 14px;
 }
 .mytxt{
   color: blue;

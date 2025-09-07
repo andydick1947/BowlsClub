@@ -102,10 +102,10 @@ color: blue;
 
 .popup{
   background-color: #ffffff;
-  width: 450px;
-  padding: 30px 40px;
+  width: 60%;
+  padding: 30px 30px;
   position: absolute;
-  transform: translate(-50%,-50%);
+  transform: translate(-40%,-50%);
   left:50%;
   top: 50%;
   border-radius: 8px;
@@ -131,7 +131,7 @@ color: blue;
 
 .popup .p2{
   font-size: 20px;
-  
+    margin: 0 0;
 
 }
 
@@ -329,11 +329,11 @@ nav {
 
 }
 
-@media only screen and (min-width: 200px) and (max-width: 600px){
+@media only screen and (min-width: 200px) and (max-width: 500px){
 .popup{
   background-color: #ffffff;
-  width: 300px;
-  padding: 30px 40px;
+  width: 80%;
+  padding: 30px 30px;
   position: absolute;
   transform: translate(-50%,-50%);
   left:50%;
@@ -361,8 +361,8 @@ nav {
 }
 
 .popup .p2{
-  font-size: 20px;
-  
+  font-size: 16px;
+  margin: 0 0;  
 
 }
 }

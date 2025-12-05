@@ -37,7 +37,7 @@ grid-template-areas:
 .sidebtn{
   display: block;
   background-color: black;
-  height: 60px;
+  height: 50px;
   width: 100%;
   border: solid 1px white;
   text-align: center;
@@ -102,7 +102,7 @@ color: blue;
 
 .popup{
   background-color: #ffffff;
-  width: 60%;
+  width: 50%;
   padding: 30px 30px;
   position: absolute;
   transform: translate(-40%,-50%);
@@ -135,7 +135,12 @@ color: blue;
   margin: 0 0;
 }
 
+.myvideo{
+  display: block;
+  margin: auto;
+  width: 90%;
 
+}
 @media only screen and (min-width: 200px) and (max-width: 1000px){
   .header {
     display: none;
@@ -312,6 +317,24 @@ nav {
       margin-right:20%;
       font-size: 20px;
   }
+
+  .myvideo{
+  display: block;
+  margin: auto;
+  width: 99%;
+
+}
+.popup{
+  background-color: #ffffff;
+  width: 80%;
+  padding: 30px 30px;
+  position: absolute;
+  transform: translate(-40%,-50%);
+  left:50%;
+  top: 50%;
+  border-radius: 8px;
+  display: none;
+}
 }
 @media only screen and (min-width: 200px) and (max-width: 300px){
   #small{
@@ -367,7 +390,12 @@ nav {
 
 }
 }
+  .myvideo{
+  display: block;
+  margin: auto;
+  width: 99%;
 
+}
 
 @media only screen and (max-width: 200px){
   body{

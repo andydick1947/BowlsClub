@@ -37,14 +37,14 @@ grid-template-areas:
 .sidebtn{
   display: block;
   background-color: black;
-  height: 50px;
+  height: 45px;
   width: 100%;
   border: solid 1px white;
   text-align: center;
   color: white;
   text-decoration: none;
   font-size: 20px;
-  padding-top: 10px;
+  padding-top: 5px;
   margin: auto;
 }
 .sidebtn:hover{
@@ -62,7 +62,7 @@ grid-template-areas:
 }
 .mytxt{
   color: blue;
-  font-size: 30px;
+  font-size: 25px;
   padding-left: 5%;
   padding-right: 5%;
 }
@@ -86,7 +86,7 @@ grid-template-areas:
   margin: auto;
   width: 100px;
   padding: 40px;
-  padding-top:10%;
+  padding-top:5%;
   padding-bottom:5%;
 }
 

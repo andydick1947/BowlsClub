@@ -37,14 +37,14 @@ grid-template-areas:
 .sidebtn{
   display: block;
   background-color: black;
-  height: 45px;
+  height: 50px;
   width: 100%;
   border: solid 1px white;
   text-align: center;
   color: white;
   text-decoration: none;
   font-size: 20px;
-  padding-top: 5px;
+  padding-top: 10px;
   margin: auto;
 }
 .sidebtn:hover{
@@ -62,7 +62,7 @@ grid-template-areas:
 }
 .mytxt{
   color: blue;
-  font-size: 25px;
+  font-size: 30px;
   padding-left: 5%;
   padding-right: 5%;
 }
@@ -80,14 +80,21 @@ grid-template-areas:
   margin-left: auto;
   margin-right: auto;
 }
-
+#img4{
+  height: 80%;
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 #cards{
 
   margin: auto;
   width: 100px;
   padding: 40px;
-  padding-top:5%;
+  padding-top:10%;
   padding-bottom:5%;
+  height: 100px
 }
 
 #tbl{
@@ -102,18 +109,19 @@ color: blue;
 
 .popup{
   background-color: #ffffff;
-  width: 50%;
-  padding: 30px 30px;
+  width: 40%;
+  padding: 10px 10px;
   position: absolute;
-  transform: translate(-40%,-50%);
+  transform: translate(-50%,-50%);
   left:50%;
   top: 50%;
   border-radius: 8px;
   display: none;
 }
-.popup button{
+
+.popup #close{
   display: block;
-  margin: 0 0 0 auto;
+  margin-left: 10px;
   background-color: red;
   font-size: 30px;
   color: white;
@@ -131,16 +139,21 @@ color: blue;
 
 .popup .p2{
   font-size: 20px;
-  
-  margin: 0 0;
-}
+  }
 
-.myvideo{
+.popup .p3{
   display: block;
-  margin: auto;
-  width: 90%;
+  font-size: 20px;
+  height: auto;
+  margin-left: 20%;
 
+  }
+
+.popup #close{
+  display: block;
+  margin-left: 45%;
 }
+
 @media only screen and (min-width: 200px) and (max-width: 1000px){
   .header {
     display: none;
@@ -314,33 +327,29 @@ nav {
     #small{
       color: white;
       margin: auto;
-      margin-right:20%;
+      margin-right:0%;
       font-size: 20px;
   }
-
-  .myvideo{
+  
+.popup .p3{
   display: block;
-  margin: auto;
-  width: 99%;
-
-}
-.popup{
-  background-color: #ffffff;
+  font-size: 14px;
+  height: auto;
   width: 80%;
-  padding: 30px 30px;
-  position: absolute;
-  transform: translate(-40%,-50%);
-  left:50%;
-  top: 50%;
-  border-radius: 8px;
-  display: none;
+  margin-left: 20px;
+  }
+
+.popup #close{
+  display:block;
+  margin-left: 45%;
 }
+
 }
 @media only screen and (min-width: 200px) and (max-width: 300px){
   #small{
     color: white;
     margin: auto;
-    margin-right:20%;
+    margin-right:0%;
     font-size: 14px;
 }
 .mytxt{
@@ -349,15 +358,10 @@ nav {
   padding-left: 1%;
   padding-right: 1%;
 }
-
-
-}
-
-@media only screen and (min-width: 200px) and (max-width: 500px){
 .popup{
   background-color: #ffffff;
-  width: 80%;
-  padding: 30px 30px;
+  width: 200px;
+  padding: 30px 40px;
   position: absolute;
   transform: translate(-50%,-50%);
   left:50%;
@@ -385,17 +389,78 @@ nav {
 }
 
 .popup .p2{
-  font-size: 16px;
-  margin: 0 0;  
-
+  font-size: 20px;
 }
 }
-  .myvideo{
+.popup .p3{
   display: block;
-  margin: auto;
-  width: 99%;
+  font-size: 14px;
+  height: auto;
+  width: 80%;
+  margin-left: 20px;
+  }
+
+.popup #close{
+  display:block;
+  margin-left: 45%;
+}
+
+
+
+
+
+@media only screen and (min-width: 300px) and (max-width: 500px){
+.popup{
+  background-color: #ffffff;
+  width: 90%;
+  padding: 30px 40px;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  left:50%;
+  top: 50%;
+  border-radius: 8px;
+  display: none;
+}
+
+.popup button{
+  display: block;
+  margin: 0 0 0 auto;
+  background-color: red;
+  font-size: 30px;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  outline: none;
+  cursor: pointer;
+}
+
+.popup .p1{
+  font-size: 30px;
+  
+  margin: 0 0;
+}
+
+.popup .p2{
+  font-size: 20px;
+  
 
 }
+
+.popup .p3{
+  display: inline-block;
+  font-size: 14px;
+  height: auto;
+
+  }
+
+.popup #close{
+  display: inline-block;
+  margin-left: 10px;
+}
+
+}
+
+
 
 @media only screen and (max-width: 200px){
   body{

@@ -59,13 +59,13 @@ h1{
 .btn:hover{
   background-color:black;
 }
-.my-grid{
+#my-grid{
   display: flex;
   align-self: auto;
   justify-content:center;
   align-items: center;
-  width: 90%;
-  margin-left:4%;
+  width: 90%; 
+  margin-left:7%;
   margin-right:6%;
   margin-top:0px;
   background-color: skyblue;

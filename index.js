@@ -21,11 +21,13 @@ for (let x=1; x<=7; x++){
 
    if(z=="sidebtn4"){ 
       clean()
+      mymeets1()
       mymeets()
    }
 
    if(z=="sidebtn5"){ 
       clean()
+      myfees1()
       myfees()
    }
 
@@ -33,14 +35,12 @@ for (let x=1; x<=7; x++){
       clean()
       myres()
    }
-
+   
    if(z=="sidebtn7"){ 
       clean()
       myscore1()
       myscore()
-      tgle()
    }
-
   })
   };
 
@@ -59,7 +59,7 @@ function tgle(){
    };
 
    function myintro1(){
-      const int1='<p style="color: black;font-weight:bold;font-size:20px;">INTRODUCTION</p>';
+      const int1='<p style="color: black;font-weight:bold;font-size:30px;">INTRODUCTION</p>';
       const div1=document.createElement("div");
       const mydiv1=document.getElementById("mainsect");
       mydiv1.appendChild(div1);
@@ -67,7 +67,8 @@ function tgle(){
 }
 
 function myintro(){
-      const int='<p class="mytxt"><br>    The Bridge Section of the LMBC was founded in 2021 by two members of the Bowling Club - Gill Daniels and Jenny Young. Since then it has developed into a thriving club of up to seven tables.<br> <br> The aim of the club is to provide a regular facility for Duplicate Contract Bridge in a welcoming and friendly environment for players of all standards. <br>  <br>Scoring at club nights has been enhanced with the introduction of a digital system. This uses easy to read digital touch screens enabling straightforward input of results for games played. After completion of each round the screen informs  players of the movement for the next round. Final results are available on screen at the end of the whole session.</p>';
+ const int='<p class="mytxt"><br>    The Bridge Section of the LMBC was founded in 2021 by two members of the Bowling Club - Gill Daniels and Jenny Young. Since then it has developed into a thriving club of up to seven tables.<br> <br> The aim of the club is to provide a regular facility for Duplicate Contract Bridge in a welcoming and friendly environment for players of all standards. <br>  <br>Scoring at club nights has been enhanced with the introduction of a digital system. This uses easy to read digital touch screens enabling straightforward input of results for games played. After completion of each round the screen informs  players of the movement for the next round. Final results are available on screen at the end of the whole session.</p>';
+
       const div=document.createElement("div");
       const mydiv=document.getElementById("mainsect");
       mydiv.appendChild(div);
@@ -75,7 +76,7 @@ function myintro(){
 }
 
 function myloc1(){
-   const loc1='<p style="color: black;font-weight:bold;font-size:20px;">LOCATION<br></p>';
+   const loc1='<p style="color: black;font-weight:bold;font-size:30px;">LOCATION<br></p>';
    const div1=document.createElement("div");
    const mydiv1=document.getElementById("mainsect");
    mydiv1.appendChild(div1);
@@ -109,13 +110,26 @@ function mycttee(){
       mydiv.appendChild(div);
       div.innerHTML=cte;
 
-  /* const cte1='<img id="img3" src="images/chimps.png"></img>';
-   const div1=document.createElement("div");
-   const mydiv1=document.getElementById("mainsect");
-   mydiv1.appendChild(div1);
-   div1.innerHTML=cte1;*/
+
 }
 
+function mycttee1(){
+const cte1='<p  style="color: black;font-weight:bold;font-size:20px;">CLUB COORDINATORS</p>'
+const div1=document.createElement("div");
+const mydiv1=document.getElementById("mainsect");
+mydiv1.appendChild(div1);
+div1.innerHTML=cte1;
+}
+
+function mycttee(){
+      const cte='<p class="mytxt"><br>The activities of the Club are coordinated by Gill Daniels and Jenny Young. Andy Dick undertakes the control and scoring of the Club sessions.';
+      const div=document.createElement("div");
+      const mydiv=document.getElementById("mainsect");
+      mydiv.appendChild(div);
+      div.innerHTML=cte;
+
+
+}
 function mymeets1(){
    const mts1='<p style="color: black;font-weight:bold;font-size:30px;">CLUB SESSION<br></p>';
       const div1=document.createElement("div");
@@ -155,9 +169,8 @@ function myres(){
       mydiv.appendChild(div);
       div.innerHTML=res;
 }
-
 function myscore1(){
-   const score7='<p style="color: black;font-weight:bold;font-size:30px;">SCORING<br></p>';
+   const score7='<p style="color: black;font-weight:bold;font-size:30px;margin-left: 50px;">SCORING<br></p>';
       const div1=document.createElement("div");
       const mydiv1=document.getElementById("mainsect");
       mydiv1.appendChild(div1);
@@ -255,14 +268,13 @@ for (let x=1; x<=7; x++){
        myres()
        tgle()
     }
- 
+     
     if(z=="debtn7"){ 
       clean()
       myscore1()
       myscore()
       tgle()
    }
-
    })
    }
 
@@ -278,5 +290,3 @@ for (let x=1; x<=7; x++){
    document.querySelector("#close").addEventListener("click",function(){
       document.querySelector(".popup").style.display="none";
    });
-
- 

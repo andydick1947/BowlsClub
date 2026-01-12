@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bowls Club Bridge</title>
+  <title>Bowls Bridge</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="res-bar.css">
@@ -9,26 +9,43 @@
 </head>
 <body>
 
- <br>
-
- <p class="subtit">RESULTS FOR <br>APR 25 TO MAR 26</p>
+  <p class="subtit">RESULTS FOR 2025 - 26</p>
 
   <div class="my-grid1">
-  
-  <button class="butn" onclick="document.location='resAPR.html'">APR</button>
-  <button class="butn" onclick="document.location='resMAY.html'">MAY</button>
-  <button class="butn" onclick="document.location='resJUN.html'">JUN</button> 
-  <button class="butn" onclick="document.location='resJUL.html'">JUL</button>
-  <button class="butn" onclick="document.location='resAUG.html'">AUG</button>
-  <button class="butn" onclick="document.location='resSEP.html'">SEP</button>
-  <button class="butn" onclick="document.location='resOCT.html'">OCT</button>
-  <button class="butn" onclick="document.location='resNOV.html'">NOV</button>
-  <button class="butn" onclick="document.location='resDEC.html'">DEC</button>  
-  <button class="butn" onclick="document.location='resJAN.html'">JAN</button>
-  <button class="butn" onclick="document.location='resFEB.html'">FEB</button>
-  <button class="butn" onclick="document.location='resMAR.html'">MAR</button>  
-</div>
 
+  <button id="butn1" class="butn">APR</button>
+  <button id="butn2" class="butn">MAY</button>
+  <button id="butn3" class="butn">JUN</button> 
+  <button id="butn4" class="butn">JUL</button>
+  <button id="butn5" class="butn">AUG</button>
+  <button id="butn6" class="butn">SEP</button>
+  <button id="butn7" class="butn">OCT</button>
+  <button id="butn8" class="butn">NOV</button>
+  <button id="butn9" class="butn">DEC</button>  
+  <button id="butn10" class="butn">JAN</button>
+  <button id="butn11" class="butn">FEB</button>
+  <button id="butn12" class="butn">MAR</button>
+</div>
+<div id="container6">
+
+  </div>
+  <script src="res-bar.js"></script>
+  <script>
+for (let x=1; x<=12; x++){ 
+  let z="butn"+x;
+  
+  let y=document.getElementById(z);
+  y.addEventListener("click",function(e){
+    let month=e.target.innerText;
+        selectedMonth=month;
+    const selectedMonthValue = selectedMonth.value;
+    sessionStorage.setItem('selectedMonth', selectedMonth);
+    window.location.href = "results.html";
+  });  
+        
+}
+
+</script>
 </body>
 </html>
 

@@ -37,7 +37,7 @@ grid-template-areas:
 .sidebtn{
   display: block;
   background-color: black;
-  height: 50px;
+  height: 40px;
   width: 100%;
   border: solid 1px white;
   text-align: center;
@@ -57,12 +57,12 @@ grid-template-areas:
  /* border: solid 1px black;*/
 }
 #frm1{
-  height: 90vh;
+  height: 90vh; 
   width: 100%;
 }
 .mytxt{
   color: blue;
-  font-size: 30px;
+  font-size: 24px;
   padding-left: 5%;
   padding-right: 5%;
 }

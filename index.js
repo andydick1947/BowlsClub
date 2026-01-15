@@ -131,7 +131,7 @@ function mycttee(){
 
 }
 function mymeets1(){
-   const mts1='<p style="color: black;font-weight:bold;font-size:30px;">CLUB SESSION<br></p>';
+   const mts1='<p style="color: black;font-weight:bold;font-size:30px;margin-left: 50px;">CLUB SESSION<br></p>';
       const div1=document.createElement("div");
       const mydiv1=document.getElementById("mainsect");
       mydiv1.appendChild(div1);
@@ -147,14 +147,14 @@ function mymeets(){
 }
 
 function myfees1(){
-   const fees1='<p style="color: black;font-weight:bold;font-size:30px;">FEES<br></p>';
+   const fees1='<p style="color: black;font-weight:bold;font-size:30px;margin-left: 50px;">FEES<br></p>';
       const div1=document.createElement("div");
       const mydiv1=document.getElementById("mainsect");
       mydiv1.appendChild(div1);
       div1.innerHTML=fees1;
 }
 function myfees(){
-   const fees='<p class="mytxt">The Fees are paid annually in April. There is a Table charge for £2 per session for members.</p>';
+   const fees='<p class="mytxt">The Fees are paid annually in April. There is a Table charge for £2 per session for members and £4 for guests.</p>';
       const div=document.createElement("div");
       const mydiv=document.getElementById("mainsect");
       mydiv.appendChild(div);

@@ -145,23 +145,19 @@ sessions[46][1]=0;
 sessions[47][1]=0;
 sessions[48][1]=0;
 sessions[49][1]=0;
-sessions[50][1]=1;
+sessions[50][1]=0;
 sessions[51][1]=1;
 
 
 
 
 
+for (let i=0; i<=51;i++){
+  myResults[i][2]=sessions[i][1];
+}
 
 
 
 
 
 
-
-for (let i=0; i<=51;i++)
-   {
-      myResults[i][2]=sessions[i][1];
-   }
-
-/*console.log(sessions);*/

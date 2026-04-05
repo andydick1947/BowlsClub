@@ -16,7 +16,7 @@ and sessions using first sessions' date */
 for (let zz=0; zz<=51; zz++){
 
   zzz=zz*7;
-  const d = new Date("Apr 4, 2025");
+  const d = new Date("Apr 3, 2026");
   d.setDate(d.getDate()+zzz);
        let month = d.getMonth();
     for (let i=3; i<=11; i++){ 
@@ -87,77 +87,63 @@ for (let yy=0;yy<=11;yy++)
 
 /* Entry details for each session played*/
 /* Enter in the format sessions[41][1]=0;*/
-
-sessions[0][1]=0;
-sessions[1][1]=0;
+sessions[0][1]=1;
+sessions[1][1]=1;
 sessions[2][1]=1;
-sessions[22][1]=0;
-sessions[23][1]=0;
-sessions[3][1]=0;
-sessions[4][1]=0;
-sessions[5][1]=0;
-sessions[6][1]=0;
-sessions[7][1]=0;
-sessions[8][1]=0;
-sessions[9][1]=0;
-sessions[10][1]=0;
+sessions[3][1]=1;
+sessions[4][1]=1;
+sessions[5][1]=1;
+sessions[6][1]=1;
+sessions[7][1]=1;
+sessions[8][1]=1;
+sessions[9][1]=1;
+sessions[10][1]=1;
 sessions[11][1]=1;
-sessions[12][1]=0;
-sessions[13][1]=0;
-sessions[14][1]=0;
-sessions[15][1]=0;
-sessions[16][1]=0;
-sessions[17][1]=0;
-sessions[18][1]=0;
-sessions[19][1]=0;
+sessions[12][1]=1;
+sessions[13][1]=1;
+sessions[14][1]=1;
+sessions[15][1]=1;
+sessions[16][1]=1;
+sessions[17][1]=1;
+sessions[18][1]=1;
+sessions[19][1]=1;
 sessions[20][1]=0;
-sessions[21][1]=0;
-sessions[22][1]=0;
-sessions[23][1]=0;
+sessions[21][1]=1;
+sessions[22][1]=1;
+sessions[23][1]=1;
 sessions[24][1]=1;
 sessions[25][1]=1;
 sessions[26][1]=1;
-sessions[27][1]=0;
-sessions[28][1]=0;
-sessions[29][1]=0;
-sessions[30][1]=0;
-sessions[31][1]=0;
-sessions[32][1]=0;
-sessions[33][1]=0;
-sessions[34][1]=0; 
+sessions[27][1]=1;
+sessions[28][1]=1; 
+sessions[29][1]=1;
+sessions[30][1]=1; 
+sessions[31][1]=1;
+sessions[32][1]=1; 
+sessions[33][1]=1;
+sessions[34][1]=1; 
 sessions[35][1]=1;
-sessions[36][1]=0;
-sessions[37][1]=0;
+sessions[36][1]=1;
+sessions[37][1]=1;
 sessions[38][1]=1;
 sessions[39][1]=1;
-sessions[40][1]=0;
+sessions[40][1]=1;
 sessions[41][1]=1;
 sessions[42][1]=1;
 sessions[43][1]=1;
 sessions[44][1]=1;
-sessions[40][1]=0;
-sessions[41][1]=0;
-sessions[42][1]=0;
-sessions[43][1]=0;
-sessions[44][1]=0; /*Feb*/
-sessions[45][1]=0;
-sessions[46][1]=0;
-sessions[47][1]=0;
-sessions[48][1]=0;
-sessions[49][1]=0;
-sessions[50][1]=0;
-sessions[51][1]=0;
+sessions[45][1]=1;
+sessions[46][1]=1;
+sessions[47][1]=1;
+sessions[48][1]=1;
+sessions[49][1]=1;
+sessions[50][1]=1;
+sessions[51][1]=1;
 
 
+for (let i=0; i<=51;i++)
+   {
+      myResults[i][2]=sessions[i][1];
+   }
 
-
-
-for (let i=0; i<=51;i++){
-  myResults[i][2]=sessions[i][1];
-}
-
-
-
-
-
-
+/*console.log(sessions);*/
